@@ -1,0 +1,1 @@
+<p style="text-align: center;"><img src="/images/404.jpg" alt="Ошибка 404" width="50%"></p>
