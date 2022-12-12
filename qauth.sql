@@ -44,8 +44,6 @@ insert  into `chats`(`id`,`user_from`,`user_to`,`time`,`content`) values
 (6,2,3,'2022-12-12 20:23:12','И тебя, мой дорогой!'),
 (7,3,2,'2022-12-12 20:58:09','Спасибо!'),
 (8,2,3,'2022-12-12 20:58:37','Пожалуйста!'),
-(9,3,20,'2022-12-12 21:03:37','вавпвапав'),
-(10,2,3,'2022-12-12 22:01:49','фывфывыфвфы'),
 (15,3,2,'2022-12-12 22:15:07','1111'),
 (16,2,3,'2022-12-12 22:15:35','222'),
 (17,3,2,'2022-12-12 22:15:49','3333');
@@ -72,9 +70,9 @@ CREATE TABLE `users` (
 
 insert  into `users`(`id`,`login`,`password`,`hash`,`vcuser`,`yuser`,`guser`,`name`,`photo_file`,`nikname`) values 
 (1,'jb@yandex.ru','$2y$10$.q5CT34pNN8Ihrz6R1GaTOLVAzAQ.R.ipkksWGj0Ubril3oxqig2y','aejrD1','','','','Джеймс Бонд','jb.png','JB'),
-(2,'sotnikovdv@yandex.ru','$2y$10$h08DxvHKC8fzXUT5n3ZG4e5Kyze8bgBi.Ac3Dbhe151BbR4RMZSzu','soxmfn','','','','Дмитрий Сотников','','DSot'),
-(3,'dvst.com@gmail.com','$2y$10$WqJo5QFleEKhONo8c/M3W./R26otaigal8NSNJuWzF/nvYoI/gdqi','AUpZvO','','','','Алекс Пушкин','DVSt.jpg','Alex'),
-(20,'sotnikovdv@slavneft.ru','$2y$10$rtyFXTswWdRAnxb6Rb.m9e9kMbJC8rtggEpDSVDUzBorCHdLIBKXC','4ZeUcP','','','','Вася Иванов','','Vasya');
+(2,'sotn@yandex.ru','$2y$10$h08DxvHKC8fzXUT5n3ZG4e5Kyze8bgBi.Ac3Dbhe151BbR4RMZSzu','soxmfn','','','','Дмитрий Сотников','','DSot'),
+(3,'dv@gmail.com','$2y$10$WqJo5QFleEKhONo8c/M3W./R26otaigal8NSNJuWzF/nvYoI/gdqi','AUpZvO','','','','Алекс Пушкин','DVSt.jpg','Alex'),
+(20,'sotnikovdv@sl.ru','$2y$10$rtyFXTswWdRAnxb6Rb.m9e9kMbJC8rtggEpDSVDUzBorCHdLIBKXC','4ZeUcP','','','','Вася Иванов','','Vasya');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
