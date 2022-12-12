@@ -5,6 +5,8 @@
 
 **PHP Messenger sample**
 
+This is a simple messenger app that allows you to register users and exchange messages in private chats
+
 # Implemented:
 
 Tested on PHP version 8.1
@@ -13,13 +15,17 @@ Developed as a practical task in the course "PHP Developer"
 
 # Complete:
 
-1. 
+1. Register users
+2. Fill user`s profile
+3. Find user by name, nikname, login (email)
+4. Select chat
+4. Send message
 
 
 ## 2. Use
 
 1. Load all files and put it in server root. 
-2. Import msngr_db.sql to MySQL database
+2. Import qauth.sql to MySQL database
 3. Go to index.php
 
 ***
