@@ -68,8 +68,8 @@ if ($uid) {
     <div class="chat_contacts">
       <div class="contact">
         <div style="display: flex; flex-direction: row; align-items: center;">
-          <input id="findContact" type="text" placeholder="поиск контактов" name="find" required class="chat-find-input">
-          <!-- <a href="onclick: findContact()"> --><img onclick="findContact();" src="images/send.jpg" alt="Avatar" class="contact_img" style="height:30px"><!-- </a> -->
+          <input id="findContact" type="text" placeholder="поиск контактов" name="find" required class="chat-find-input" onclick="findContact();">
+          <!-- <a href="onclick: findContact()"> --><img onclick="findContact();" src="images/pers_find.jpg" alt="Avatar" class="contact_img" style="height:30px"><!-- </a> -->
         </div>
         <!-- <div class="new_msg_send"> 
           <button class="new_msg_btn"><img src="/images/send.jpg" alt="send"></button>
@@ -160,7 +160,7 @@ if ($uid) {
       <div class="new_msg">
         <input id="msgContent" type="text" placeholder="Ваше сообщение" name="content" required class="msg-input"> <!-- class="logon-frm-input" -->
         <input type="hidden" name="from" value="<?= $user->user_id ?>">
-        <input type="hidden" name="to" value="<?= $userID ?>">
+        <input type="hidden" name="to" value="<?= $uid ?>">
       </div>
       <div class="new_msg_send">
         <button type="submit" class="new_msg_btn"><img src="/images/send.jpg" alt="send"></button>
@@ -193,6 +193,8 @@ if ($uid) {
     xmlhttp.send();
     }
   
+    findContact.key
+
   <?php
   if ($uid) {
   ?>
